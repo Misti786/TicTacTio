@@ -1,0 +1,343 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: impact;
+}
+
+h1 {
+  display: none;
+}
+
+html {
+  background: #2F2F30;
+}
+
+#main {
+  position: relative;
+  margin: 110px 0 0 35px;
+  height: 280px;
+  width: 280px;
+  border: 5px solid #898989;
+  background: #898989;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 3px;
+}
+
+#box1 {
+  background: #262626;
+  box-shadow: inset 0 0 5px #595A5B;
+  z-index: 2;
+}
+
+#box2 {
+  background: #39959A;
+  box-shadow: inset 0 0 5px #000000;
+  z-index: 2;
+}
+
+#box3 {
+  background: #262626;
+  box-shadow: inset 0 0 5px #595A5B;
+  z-index: 2;
+}
+
+#box4 {
+  background: #39959A;
+  box-shadow: inset 0 0 5px #000000;
+  z-index: 2;
+}
+
+#box5 {
+  background: #262626;
+  box-shadow: inset 0 0 5px #595A5B;
+  z-index: 2;
+
+}
+
+#box6 {
+  background: #39959A;
+  box-shadow: inset 0 0 5px #000000;
+  z-index: 2;
+}
+
+#box7 {
+  background: #262626;
+  box-shadow: inset 0 0 5px #595A5B;
+  z-index: 2;
+}
+
+#box8 {
+  background: #39959A;
+  box-shadow: inset 0 0 5px #000000;
+  z-index: 2;
+}
+
+#box9 {
+  background: #262626;
+  box-shadow: inset 0 0 5px #595A5B;
+  z-index: 2;
+}
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5,
+#box6,
+#box7,
+#box8,
+#box9 {
+  border: none;
+  outline: none;
+  color: #FF2828;
+  text-shadow: 0 0 5px #FF2828, 0 0 20px #FF2828;
+  font-size: 60px;
+}
+
+#winnerLineContainer {
+  position: relative;
+  height: 290px;
+  width: 290px;
+  background: #42445A00;
+  margin: -290px 0 0 35px;
+  z-index: 1;
+}
+
+#winnerLineHr1 {
+  position: absolute;
+  height: 5px;
+  width: 260px;
+  margin: 50px 0 0 15px;
+  transform: scale(0);
+  transition: 0.4s;
+}
+
+#winnerLineHr2 {
+  position: absolute;
+  height: 5px;
+  width: 260px;
+  margin: 145px 0 0 15px;
+  transform: scale(0);
+  transition: 0.4s;
+}
+
+#winnerLineHr3 {
+  position: absolute;
+  height: 5px;
+  width: 260px;
+  margin: 240px 0 0 15px;
+  transform: scale(0);
+  transition: 0.4s;
+}
+
+#winnerLineVr1 {
+  position: absolute;
+  height: 260px;
+  width: 5px;
+  margin: 15px 0 0 48px;
+  transform: scale(0);
+  transition: 0.4s;
+}
+
+#winnerLineVr2 {
+  position: absolute;
+  height: 260px;
+  width: 5px;
+  margin: 15px 0 0 143px;
+  transform: scale(0);
+  transition: 0.4s;
+}
+
+#winnerLineVr3 {
+  position: absolute;
+  height: 260px;
+  width: 5px;
+  margin: 15px 0 0 238px;
+  transform: scale(0);
+  transition: 0.4s;
+}
+
+#winnerLineCr1 {
+  position: absolute;
+  height: 350px;
+  width: 5px;
+  transform: rotate(-45deg) scale(0);
+  margin: -27px 0 0 145px;
+  transition: 0.4s;
+}
+#winnerLineCr2 {
+  position: absolute;
+  height: 350px;
+  width: 5px;
+  transform: rotate(45deg) scale(0);
+  margin: -32px 0 0 145px;
+  transition: 0.4s;
+}
+#winnerListx{
+  position: absolute;
+  height: 150px;
+  width: 340px;
+  margin:-220px 0 0 10px;
+  background:#197C97;
+  text-align: center;
+  font-size:35px;
+  color:#F3FF26;
+  transform: scale(0);
+  border-radius:10px;
+  box-shadow: 0 0 10px #F3FF26,0 0 20px #F3FF26;
+  z-index:5;
+  transition: .5s .7s;
+}
+#winnerListo{
+  position: absolute;
+  height: 150px;
+  width: 340px;
+  margin:-220px 0 0 10px;
+  background:#197C97;
+  text-align: center;
+  font-size:35px;
+  color:#F3FF26;
+  transform: scale(0);
+  border-radius:10px;
+   box-shadow: 0 0 10px #F3FF26,0 0 20px #F3FF26;
+  z-index:5;
+  transition: .5s .7s;
+}
+#winnerListDrow {
+  position: absolute;
+  height: 150px;
+  width: 340px;
+  margin: -220px 0 0 10px;
+  background: #197C97;
+  text-align: center;
+  font-size: 35px;
+  color: #F3FF26;
+  transform: scale(0);
+  border-radius: 10px;
+   box-shadow: 0 0 10px #F3FF26,0 0 20px #F3FF26;
+  z-index: 1;
+  transition: .5s .7s;
+}
+
+.rest{
+  height: 40px;
+  width: 50px;
+  background:url("android-real-estate-restart-feb747a497e6521b70933ce7f4dcf6ba.png") white;
+  background-position: center;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  border: 1px solid white;
+  outline: none;
+  border-radius: 5px;
+  transform: scale(1);
+   box-shadow: 0 0 10px white,0 0 20px white;
+  transition: .1s;
+}
+.rest:active{
+  transform: scale(.9);
+}
+
+#blur{
+  filter: blur(0px);
+  transition: .0s .7s;
+}
+
+#point {
+  position: relative;
+  height: 40px;
+  width: 150px;
+  background: #39959A;
+  border-radius: 0 0 10px 10px;
+  margin: -400px 0 0 105px;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  color: #782419;
+}
+h2{
+  font-size: 30px;
+  color: #E4FF99;
+  margin: 380px 0 0 0;
+  text-align: center;
+  animation: turn .5s infinite linear alternate;
+}
+@keyframes turn{
+  0%{transform: translateY(0px);filter: opacity(30%);}
+  100%{transform: translateY(10px);}
+}
+#pointx{
+  font-size: 30px;
+  color:#E9EE61;
+}
+#pointo {
+  font-size: 30px;
+  color:#E9EE61;
+}
+#pointBar{
+  color: #196478;
+}
+#pointRest{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  background: #F42727;
+  border: 0;
+  outline:0;
+  margin: 40px 0 0 -78px;
+}
+
+
+/*////////*/
+#loadingContainer {
+  position:absolute;
+  height: 100vh;
+  width: 360px;
+  background: #3D1E51;
+  transition: .5s;
+  z-index: 50;
+}
+#iconBox {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border: 4px solid #959B9C;
+  background: #2BC4E3;
+  border-radius: 20px;
+  margin: 120px 0 0 134px;
+}
+#loadingBorder {
+  position: absolute;
+  height: 20px;
+  width: 200px;
+  background: #979898;
+  border: 3px solid #4D4D4D;
+  border-radius: 10px;
+  margin: 240px 0 0 83px;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px #4D4D4D;
+}
+#loadingElement {
+  height: 20px;
+  width:0px;
+  background:linear-gradient(90deg, 
+   #24F2D7 70%,#4E988E);
+   animation:loading 4s forwards;
+}
+@keyframes loading{
+  0%{width:0px;}
+  40%{width:50px;}
+  60%{width:120px;}
+  100%{width:200px;}
+}
+#loadingText{
+  position: absolute;
+  color: white;
+  margin: 265px 0 0 149px;
+}
+
+#startGame{
+  display:none;
+}

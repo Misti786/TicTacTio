@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <!-- HTML -->
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+   <div id="loadingContainer">
+     <div id="iconBox"></div>
+     <div id="loadingBorder">
+       <div id="loadingElement"></div>
+     </div>
+     <h4 id="loadingText">Loading...</h4>
+   </div>
+  
+ <div id="startGame">
+<div id="blur">
+    <div id="main">
+      <button id="box1" onclick="fun1()"></button>
+      <button id="box2" onclick="fun2()"></button>
+      <button id="box3" onclick="fun3()"></button>
+      <button id="box4" onclick="fun4()"></button>
+      <button id="box5" onclick="fun5()"></button>
+      <button id="box6" onclick="fun6()"></button>
+      <button id="box7" onclick="fun7()"></button>
+      <button id="box8" onclick="fun8()"></button>
+      <button id="box9" onclick="fun9()"></button>
+    </div>
+    <div id="winnerLineContainer">
+      <div id="winnerLineHr1"></div>
+      <div id="winnerLineHr2"></div>
+      <div id="winnerLineHr3"></div>
+      <div id="winnerLineVr1"></div>
+      <div id="winnerLineVr2"></div>
+      <div id="winnerLineVr3"></div>
+      <div id="winnerLineCr1"></div>
+      <div id="winnerLineCr2"></div>
+    </div>
+  
+  </div>
+  
+  <div id="winnerListx">👑 <br> '×' WIN <br>
+    <button class="rest" onclick="rest()">
+    </button></div>
+    
+  <div id="winnerListo">👑 <br> 'o' WIN <br>
+    <button class="rest" onclick="rest()"></button>
+  </div>
+  <div id="winnerListDrow"><br> DROW <br>
+    <button class="rest" onclick="rest()"></button>
+  </div>
+  
+    <div id="point">×-<span id="pointx">0</span> <span id="pointBar">|</span> o-<span id="pointo">0</span>
+    
+    <button id="pointRest" onclick="pointRest()"></button>
+    </div>
+<h2></h2>
+</div>
+ 
+  <h1>2</h1>
+  <script src="main.js"></script>
+</body>
+
+</html>
